@@ -1,0 +1,5 @@
+watch_directory: '/watch'
+synced_extensions: ['md', 'pdf', 'txt']
+knowledge_id: 'YOUR_ID_GOES_HERE'
+url: 'YOUR_URL_GOES_HERE'
+token: 'YOUR_TOKEN_GOES_HERE'

@@ -1,0 +1,11 @@
+services:
+  openwebui-auto-knowledge:
+    image: slothologist/openwebui-auto-knowledge:latest
+    user: "99:100"
+    container_name: openwebui-auto-knowledge
+    environment:
+      - UID=99
+      - GID=100
+    volumes:
+      - your_config_path:/config
+      - your_watch_path:/watch
